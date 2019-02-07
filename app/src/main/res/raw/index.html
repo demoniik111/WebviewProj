@@ -1,0 +1,25 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        Test
+    </title>
+    <style>
+    	.spinner{
+        	width: 100%;
+        	height: 100%;
+        	background: url(spinner.png) no-repeat;
+    	}
+	</style>
+</head>
+<body>
+	<div class="spinner" id="spinner"></div>
+	
+<script src="jquery.js"></script>
+<script src="propeller.js"></script>
+
+<script>
+  $("#spinner").propeller({inertia: 0.99});
+</script>
+</body>
+</html>
